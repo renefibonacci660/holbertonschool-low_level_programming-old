@@ -1,30 +1,29 @@
 #include <stdio.h>
 /**
  * main - Entry point of function
- * Description: prints a - z then newline
+ * Description: prints a - z lower then upper with \n
  * Return: Always zero
  */
+
 int main(void)
 {
 char a;
 char b;
+char n;
 
-a = 'a';
-b = '\n';
+a = 97;
+b = 65;
+n = '\n';
 
-while (a <= 'z')
+for (a = 97 ; a <= 122; a++)
 {
 	putchar(a);
-
-	if (a == 'p' || a == 'd')
-	{
-		a = a + 2;
-	}
-	else
-	{
-		a = a + 1;
-	}
 }
+
+for (b = 65 ; b <= 90 ; b++)
+{
 	putchar(b);
+}
+	putchar(n);
 	return (0);
 }
