@@ -7,8 +7,8 @@
 
 int main(void)
 {
-	char base;
-	char n;
+	int base;
+	int n;
 
 	base = 48;
 	n = '\n';
