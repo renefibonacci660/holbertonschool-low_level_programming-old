@@ -12,7 +12,7 @@ int main(void)
 	char n;
 
 	numbers = 48;
-	letters = 65;
+	letters = 97;
 	n = '\n';
 
 	while (numbers <= 57)
@@ -21,7 +21,7 @@ int main(void)
 		numbers = numbers + 1;
 	}
 
-	while (letters <= 70)
+	while (letters <= 102)
 	{
 		putchar(letters);
 		letters = letters + 1;
