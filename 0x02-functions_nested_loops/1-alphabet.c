@@ -8,9 +8,10 @@ void print_alphabet(void)
 	char *string;
 	int l;
 	string = "abcdefghijklmnopqrstuvwxyz";
+
 	l = 0;
 
-	while(l <= 27)
+	while (l <= 27)
 	{
 		_putchar(string[l]);
 		l = l + 1;
