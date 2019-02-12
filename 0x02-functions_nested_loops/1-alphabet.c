@@ -7,6 +7,7 @@ void print_alphabet(void)
 {
 	char *string;
 	int l;
+
 	string = "abcdefghijklmnopqrstuvwxyz";
 
 	l = 0;
