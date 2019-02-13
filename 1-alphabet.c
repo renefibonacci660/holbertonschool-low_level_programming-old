@@ -5,17 +5,14 @@
 
 void print_alphabet(void)
 {
-	char *string;
 	int l;
 
-	string = "abcdefghijklmnopqrstuvwxyz";
+	l = 97;
 
-	l = 0;
-
-	while (l <= 27)
+	while (l <= 122)
 	{
-		_putchar(string[l]);
-		l = l + 1;
+		_putchar(l);
+		l++;
 	}
 	_putchar('\n');
 }
